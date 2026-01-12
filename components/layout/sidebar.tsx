@@ -78,7 +78,7 @@ export function Sidebar() {
           <div className="flex h-14 sm:h-16 items-center justify-between px-4 border-b border-gray-200 dark:border-gray-800">
             <div className="flex items-center space-x-2 min-w-0">
               <img src="/logo.png" alt="Connect Pro Logo" className="h-12 w-12 sm:h-15 sm:w-15 flex-shrink-0" />
-              <span className="text-sm sm:text-base font-bold text-gray-800 dark:text-gray-100 truncate">Connect Pro Partenaires</span>
+              <span className="text-sm sm:text-base font-bold text-gray-800 dark:text-gray-100 truncate">cenof module partner</span>
             </div>
             <Button variant="ghost" size="icon" onClick={() => setSidebarOpen(false)} className="flex-shrink-0 bg-white dark:bg-gray-800 shadow-lg border border-gray-200 dark:border-gray-700 p-0">
               <X className="h-8 w-8 sm:h-6 sm:w-6" />
@@ -159,7 +159,7 @@ export function Sidebar() {
               <span className="truncate">Transferts UV</span>
             </Link>
             
-            <SectionHeader>Plateformes de Paris</SectionHeader>
+            {/* <SectionHeader>Plateformes de Paris</SectionHeader>
             <Link
               href="/dashboard/betting/platforms"
               aria-label="Plateformes"
@@ -201,7 +201,7 @@ export function Sidebar() {
             >
               <DollarSign className="h-4 w-4 sm:h-5 sm:w-5 flex-shrink-0" />
               <span className="truncate">Commissions</span>
-            </Link>
+            </Link> */}
             
             
             
@@ -220,8 +220,8 @@ export function Sidebar() {
       <div className="hidden lg:flex lg:w-64 lg:flex-col lg:fixed lg:inset-y-0 lg:z-40">
         <div className="flex flex-col flex-grow bg-white dark:bg-gray-900 pt-5 pb-4 overflow-y-auto border-r border-gray-200 dark:border-gray-800">
           <div className="flex items-center flex-shrink-0 px-4">
-            <img src="/logo.png" alt="Connect Pro Logo" className="h-14 w-14" />
-            <span className="ml-3 text-lg font-bold text-gray-800 dark:text-gray-100">Connect Pro Partenaires</span>
+            {/* <img src="/logo.png" alt="Connect Pro Logo" className="h-14 w-14" /> */}
+            <span className="ml-3 text-lg font-bold text-gray-800 dark:text-gray-100">Cenof module partner</span>
           </div>
           <nav className="mt-8 flex-1 px-2 space-y-1">
             <SectionHeader>Generale</SectionHeader>
@@ -293,7 +293,7 @@ export function Sidebar() {
               Transferts UV
             </Link>
 
-            <SectionHeader>Plateformes de Paris</SectionHeader>
+            {/* <SectionHeader>Plateformes de Paris</SectionHeader>
             <Link
               href="/dashboard/betting/platforms"
               aria-label="Plateformes"
@@ -332,7 +332,7 @@ export function Sidebar() {
             >
               <DollarSign className="h-5 w-5" />
               Commissions
-            </Link>
+            </Link> */}
 
            
             
